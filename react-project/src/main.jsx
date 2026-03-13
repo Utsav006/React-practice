@@ -2,9 +2,14 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
+import Welcome from './components/Welcome.jsx'
+import Student from './components/Student.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
+    <Welcome name='Utsav Singh'/>
+    <Welcome name='Vishal Singh'/>
+    <Student name='utsav singh' cource='Btech' Rollno='6'/>
   </StrictMode>,
 )
