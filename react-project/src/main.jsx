@@ -8,9 +8,11 @@ import './index.css'
 //import NameInput from './components/NameInput.jsx'
 //import CounterApp from './components/CounterApp.jsx'
 import Subscription from './components/Subscription.jsx'
+import RepotCard from './components/ReportCard.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App />
+
     <Welcome name='Utsav Singh'/>
     <Welcome name='Vishal Singh'/>
     
@@ -18,7 +20,9 @@ createRoot(document.getElementById('root')).render(
     {/* <Counter />
     <NameInput />
     <CounterApp />
-     */}
+     
     <Subscription />  
+    */}
+    <RepotCard />
   </StrictMode>,
 )
